@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" ITEM 1",
+        "price": 200,
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "id": 2,
+        "name":" ITEM 2",
+        "price": 250,
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "id": 3,
+        "name":" ITEM 3",
+        "price": 290,
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "id": 4,
+        "name":" ITEM 4",
+        "price": 200,
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "id": 5,
+        "name":" ITEM 5",
+        "price": 300,
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "id": 6,
+        "name":" ITEM 6",
+        "price": 200,
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "id": 7,
+        "name":" ITEM 7",
+        "price": 200,
+        "image": "https://via.placeholder.com/100"
+    },
+    {
+        "id": 8,
+        "name":" ITEM 8",
+        "price": 200,
+        "image": "https://via.placeholder.com/100"
+}
+
+]

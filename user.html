@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Profile Settings</title>
+  <link rel="stylesheet" href="user.css">
+</head>
+<body>
+  <div class="container">
+    <h1>User Profile Settings</h1>
+    <form id="update-profile-form" method="PUT" action="http://localhost:5500/api/update-profile">
+        
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="current-password">Current Password</label>
+        <input type="password" id="current-password" name="current-password" required>
+      </div>
+      <div class="form-group">
+        <label for="new-password">New Password</label>
+        <input type="password" id="new-password" name="new-password">
+      </div>
+      <div class="form-group">
+        <label for="confirm-new-password">Confirm New Password</label>
+        <input type="password" id="confirm-new-password" name="confirm-new-password">
+      </div>
+      <div class="form-group">
+        <label for="bio">Bio</label>
+        <textarea id="bio" name="bio" rows="4" cols="50"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="birthday">Birthday</label>
+        <input type="date" id="birthday" name="birthday" required>
+      </div>
+      <div class="form-group">
+        <label for="country">Country</label>
+        <select id="country" name="country" required>
+          <option value="">Select a country</option>
+          <option value="US">United States</option>
+          <option value="CA">Canada</option>
+          <option value="MX">Mexico</option>
+          <option value="IN">India</option>
+          <option value="CN">China</option>
+          <option value="AU">Australia</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="phone-number">Phone Number</label>
+        <input type="tel" id="phone-number" name="phone-number" required>
+      </div>
+      <button type="submit">Save Changes</button>
+    </form>
+  </div>
+  <script src="user.js"></script>
+</body>
+</html>
